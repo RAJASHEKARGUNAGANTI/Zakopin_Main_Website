@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Headding{
+    /* padding-top: 5rem; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 95vh;
+    border-bottom: 0.5 solid black;
+    /* background-color: rgb(217, 215, 215); */
+    font-family: 'CustomFont3';
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top:5rem ;
+    padding: 3rem;
+}
+.Headding::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 650px; /* Height of the colored section */
+  background-color:var(--color-primary); /* Desired background color */
+  z-index: -1; 
+}
+.headInfo{
+    align-items: center;
+    justify-content: center;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 20% 50% ;
+    margin: 2rem;
+    gap: 20%;
+}
+.InfoImg{
+    align-items: center;
+    justify-content: center;
+    
+}
+.InfoImginner{
+    width: 30rem; 
+    border-radius: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.services_content{
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    /* gap: 5%; */
+    /* margin: 2rem; */
+
+}
+.services_card{
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    margin: 1rem;
+    background: white;
+    border-color: var(--color-primary-variant);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.services_card:hover{
+    background: var(--color-primary);
+}
+
+/*=======================MEDIA QUERIES (MEDIUM DEVICES)=======================*/
+@media screen and (max-width:1024px){
+    .services_content{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .headInfo{
+        padding-top: 600px;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        
+    }
+}
+
+/*=======================MEDIA QUERIES (SMALL DEVICES)=======================*/
+@media screen and (max-width:600px){
+    .services_content{
+        width: var(--container-width-sm);
+    }
+}

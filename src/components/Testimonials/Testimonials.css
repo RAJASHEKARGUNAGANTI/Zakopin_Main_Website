@@ -1,0 +1,83 @@
+.Testimo{
+    height: 80%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--color-primary); */
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+}
+.carousel_item{
+    display: flex;
+    flex-direction: row;
+}
+.Testimo:hover .info:last-child{
+    width: 80%;
+    font-size: large;
+    display:block;
+    transition: 1s;
+    transform: translateX(-10%) scale(1);
+    transition: transform 0.5s;
+    padding: 5erm;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: white;
+    
+}
+
+
+.image{
+    width: 12cm;
+    height: 10cm;
+    border-radius: 2rem;
+}
+/* .butn-testimo{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  transition: opacity 1s,visibility 0s 0.3s;
+} */
+.butn-testimo{
+    bottom: 0;
+    right: 0;
+    margin: 3rem;
+    position: absolute;
+}
+
+.info{
+    padding: 3rem;
+    border-radius: 2rem;
+    transition: transform 0.5s;
+}
+/* .info:hover {
+    width: 80%;
+    font-size: large;
+    display:block;
+    transition: 1s;
+    transform: translateX(-10%) scale(1);
+    transition: transform 0.5s;
+    padding: 5erm;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: white;
+    
+    
+} */
+
+/*=======================MEDIA QUERIES (MEDIUM DEVICES)=======================*/
+@media screen and (max-width:1024px){
+    .Testimo{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 75rem;
+    }
+}
+
+/*=======================MEDIA QUERIES (SMALL DEVICES)=======================*/
+@media screen and (max-width:600px){
+    .Testimo{
+        width: var(--container-width-sm);
+    }
+}
