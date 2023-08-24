@@ -1,0 +1,21 @@
+.out {
+    display: flex; /* Use flexbox for side-by-side layout */
+  }
+  
+  .in1 {
+    flex: 0 0 auto; /* Fix the width of in1 */
+    padding: 10px;
+  }
+  
+  .in2 {
+    flex: 1 1 auto; /* Allow in2 to take remaining space */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    /* font-size: large; */
+  }
+  
+  .in1 img {
+    max-width: 100%; /* Make sure the image fits within in1 */
+    height: auto;
+  }
+  
