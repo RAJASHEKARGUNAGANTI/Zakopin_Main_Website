@@ -9,8 +9,7 @@ import emailjs from 'emailjs-com'
 import { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css"
-import Services from '../../pages/Services/Services'
-
+// import Services from '../../pages/Services/Services'
 
 const Contact = () => {
   const form = useRef();
@@ -39,7 +38,7 @@ const Contact = () => {
           <artical className="contact__option">
           <MdOutlineEmail className='contact__option-icon' />
           <h4>Email</h4>
-          <h5>zakopin.inovations@gmail.com</h5>
+          <h5>zakopin </h5>
           <a href="mailto:gunagantirajashekar@gmail.com" target="_blank">Send a message</a>
           </artical>
           <artical className="contact__option">

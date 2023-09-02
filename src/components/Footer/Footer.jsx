@@ -6,10 +6,12 @@ import {AiFillGithub} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiOutlineMail} from 'react-icons/ai'
 // import {SiHashnode} from 'react-icons/si'
+// import ParticlesBG from "../Particles/ParticlesBG";
 
 function Footer(){
     return(
         <footer>
+          {/* <ParticlesBG/> */}
       <a href="#" className='footer__logo'>Zakopin</a>
       <ul className="permalinks">
         <li><a href="#">Home</a></li>

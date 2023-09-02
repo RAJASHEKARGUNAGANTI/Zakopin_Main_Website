@@ -1,21 +1,76 @@
-.out {
-    display: flex; /* Use flexbox for side-by-side layout */
+.ourServices{
+  background-image:url(../../images/ourServices.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  align-items: center;
+  display: flex;
+  padding-left: 4rem;
+  backdrop-filter: blur(1px);
+}
+.ourServices::before {
+  content: "";
+  /* background-image: url('../../images/keyboard.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Place it below the content */
+  
+}
+
+.ourServices h1{
+  font-size: 5rem;
+  color: white;
+}
+.service-container{
+  /* margin: 2rem; */
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 60%;
+}
+.service-contents{
+  display: grid;
+  grid-template-columns: 50% 60%;
+  gap: 10%;
+  margin: 1rem;
+}
+.service-img-inner{
+  width: 30rem;
+  height: auto;
+}
+/*=======================MEDIA QUERIES (MEDIUM DEVICES)=======================*/
+@media screen and (max-width:1024px){
+  
+  .service-contents{
+      padding-top: 7px;
+      /* grid-template-columns: 1fr; */
+      /* gap: 2rem; */
+      grid-template-columns: 80% ;
+      
+    }
+    .service-contents{
+      padding: 2rem;
+    }
+    
   }
   
-  .in1 {
-    flex: 0 0 auto; /* Fix the width of in1 */
-    padding: 10px;
+  /*=======================MEDIA QUERIES (SMALL DEVICES)=======================*/
+  @media screen and (max-width:600px){
+    .service-contents{
+      /* padding-top: 7px; */
+    grid-template-columns: 200% ;
+    height: 30rem;
+    
+    
   }
+
+.service-img-inner{
+  width: 20rem;
+}
   
-  .in2 {
-    flex: 1 1 auto; /* Allow in2 to take remaining space */
-    overflow-y: auto; /* Enable vertical scrolling */
-    padding: 10px;
-    /* font-size: large; */
-  }
-  
-  .in1 img {
-    max-width: 100%; /* Make sure the image fits within in1 */
-    height: auto;
-  }
-  
+}

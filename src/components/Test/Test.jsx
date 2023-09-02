@@ -1,13 +1,13 @@
-import React from 'react';
-import Services from '../../pages/Services/Services';
-import './test.css';
+// import React from 'react';
+// import Services from '../../pages/Services/Services';
+// import './test.css';
 
-function Test(){
-    return(
-        <div className='TestContainer'>
-            <Services/>
-        </div>
-    )
-}
+// function Test(){
+//     return(
+//         <div className='TestContainer'>
+//             <Services/>
+//         </div>
+//     )
+// }
 
-export default Test;
+// export default Test;
