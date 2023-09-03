@@ -63,18 +63,47 @@ textarea{
     color: var(--color-lite);
 }
 
-/*=======================MEDIA QUERIES (MEDIUM DEVICES)=======================*/
-@media screen and (max-width:1024px){
+
+
+/* Extra Small Devices (phones) */
+@media (max-width: 576px) {
+    .container{
+        width: var(--container-width-sm);
+    }  
+    .contact{
+        margin-top: 14rem;
+        width: 15cm;
+    }
+}
+  
+  /* Small Devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+.contact{
+    margin-top: 14rem;
+}  }
+  
+  /* Medium Devices (small laptops and desktops) */
+  @media (min-width: 769px) and (max-width: 992px) {
     .container{
         grid-template-columns: 1fr;
         gap: 2rem;
         margin-top: 95rem;
+    } 
+    .contact{
+        margin-top: 14rem;
     }
-}
-
-/*=======================MEDIA QUERIES (SMALL DEVICES)=======================*/
-@media screen and (max-width:600px){
-    .container{
-        width: var(--container-width-sm);
+ }
+  
+  /* Large Devices (large laptops and desktops) */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .contact{
+        margin-top: 14rem;
+    }  }
+  
+  /* Extra Large Devices (extra large desktops and high-resolution screens) */
+  @media (min-width: 1201px) {
+    .contact{
+        margin-top: 14rem;
     }
-}
+  }
+  

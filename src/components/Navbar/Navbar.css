@@ -45,3 +45,32 @@
     color: rgb(255, 255, 255);
     font-size: 24px;
 }
+
+/* Extra Small Devices (phones) */
+@media (max-width: 576px) {
+    .NavigationBar{
+        display: none;
+    }
+  }
+  
+  /* Small Devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+.NavigationBar{
+    display: none;
+}  
+}
+  
+  /* Medium Devices (small laptops and desktops) */
+  @media (min-width: 769px) and (max-width: 992px) {
+    /* Your CSS styles for medium devices go here */
+  }
+  
+  /* Large Devices (large laptops and desktops) */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    /* Your CSS styles for large devices go here */
+  }
+  
+  /* Extra Large Devices (extra large desktops and high-resolution screens) */
+  @media (min-width: 1201px) {
+    /* Your CSS styles for extra large devices go here */
+  }

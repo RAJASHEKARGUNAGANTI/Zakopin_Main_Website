@@ -40,7 +40,7 @@ function Headder() {
                 <div className="Digital services_card">
                     <ImStatsBars className='contact__option-icon' />
                     {/* <img src={gifIcon} alt="GIF Icon" /> */}
-                    <h4>Degital Marketing</h4>
+                    <h4>Digital Marketing</h4>
                     <p>Zakopin Innovations Private Limited providing dynamic platforms with website builders as well as user-friendly admin panels</p>
                 </div>
                 <div className="Android services_card">

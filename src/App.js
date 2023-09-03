@@ -14,7 +14,7 @@ import Spinner from './components/Particles/spinner';
 // import Test from './components/Test/Test';
 import ParticlesBG from './components/Particles/ParticlesBG';
 // import AtomicSpinner from 'atomic-spinner'
-
+import SmallNav from './components/SmallNav/SmallNav';
 
 
 function App() {
@@ -40,6 +40,7 @@ function App() {
           <Testimonials />
           <ParticlesBG/>
           <Footer />
+          <SmallNav/>
         </div>
       )}
     </div>

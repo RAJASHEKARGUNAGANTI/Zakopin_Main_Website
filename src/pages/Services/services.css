@@ -61,16 +61,56 @@
   
   /*=======================MEDIA QUERIES (SMALL DEVICES)=======================*/
   @media screen and (max-width:600px){
-    .service-contents{
-      /* padding-top: 7px; */
-    grid-template-columns: 200% ;
-    height: 30rem;
     
-    
-  }
+  
+}
+
+/* Extra Small Devices (phones) */
+@media (max-width: 576px) {
+  .service-contents{
+    /* padding-top: 7px; */
+  grid-template-columns: 200% ;
+  height: 35rem;
+}
 
 .service-img-inner{
-  width: 20rem;
+width: 20rem;
 }
-  
+}
+
+/* Small Devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Your CSS styles for small devices go here */
+}
+
+/* Medium Devices (small laptops and desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .service-contents{
+    padding-top: 7px;
+    grid-template-columns: 80% ;
+    
+  }
+  .service-contents{
+    padding: 2rem;
+  }}
+
+/* Large Devices (large laptops and desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .service-contents{
+    padding-top: 7px;
+    grid-template-columns:  30% 60% ;
+    gap: 25rem;
+     
+  }
+ 
+}
+
+/* Extra Large Devices (extra large desktops and high-resolution screens) */
+@media (min-width: 1201px) {
+  .service-contents{
+    padding-top: 7px;
+    grid-template-columns:  30% 60% ;
+    gap: 25rem;
+     
+  }
 }

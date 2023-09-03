@@ -94,28 +94,87 @@
     background: var(--color-primary);
 }
 
-/*=======================MEDIA QUERIES (MEDIUM DEVICES)=======================*/
-@media screen and (max-width:1024px){
+    
+/* Extra Small Devices (phones) */
+@media (max-width: 576px) {
+    .services_content{
+        width: var(--container-width-sm);
+        grid-template-columns: 1fr;
+
+    } 
+    .InfoImg {
+        display: none;
+    } 
+    .InfoImginner{
+        display: none;
+    }
+    .Information{
+        width: 10cm;
+        padding-top: 40rem;
+        margin-top: 4rem;
+    }  
+}
+  
+  /* Small Devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+.services_content{
+        width: var(--container-width-sm);
+        grid-template-columns: 1fr;
+
+    } 
+    .InfoImg {
+        display: none;
+    } 
+    .InfoImginner{
+        display: none;
+    }
+    .Information{
+        width: 10cm;
+        padding-top: 40rem;
+        margin-top: 2rem;
+    }  
+}
+  
+  /* Medium Devices (small laptops and desktops) */
+  @media (min-width: 769px) and (max-width: 992px) {
     .services_content{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
     .headInfo{
-        padding-top: 700px;
-        /* grid-template-columns: 1fr; */
-        /* gap: 2rem; */
+        padding-top: 70px;
         grid-template-columns: 80% ;
         
     }
     .Headding{
         height: 680px;
-    }
-}
-
-/*=======================MEDIA QUERIES (SMALL DEVICES)=======================*/
-@media screen and (max-width:600px){
+    }  }
+  
+  /* Large Devices (large laptops and desktops) */
+  @media (min-width: 993px) and (max-width: 1200px) {
     .services_content{
-        width: var(--container-width-sm);
+        /* grid-template-columns: 1fr; */
+    }
+    .headInfo{
+        margin-top: 20rem;
+        grid-template-columns: 1fr;
+    }
+    .Headding{
+        height: 880px;
     }
     
-}
+  }
+  
+  /* Extra Large Devices (extra large desktops and high-resolution screens) */
+  @media (min-width: 1201px) {
+    .services_content{
+        position: relative;
+        padding-top: 7rem;
+        bottom: 0;
+        height: 30cm;
+    }
+    .headInfo{
+        margin-top: 15rem;
+        /* grid-template-columns: 1fr; */
+    }
+  }
