@@ -16,6 +16,10 @@ code {
   --color-primary-variant:#808080;
   --color-white :#ffff;
 }
+::-webkit-scrollbar{
+  display: none;
+}
+
 
 .butn{
   width: max-content;

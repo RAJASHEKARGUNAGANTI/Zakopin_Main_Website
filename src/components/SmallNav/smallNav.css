@@ -12,6 +12,8 @@ nav{
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    align-items: center;
+    justify-content: center;
 }
 nav a {
     background: transparent;
@@ -31,7 +33,16 @@ nav a.active{
 
 /* Extra Small Devices (phones) */
 @media (max-width: 576px) {
-    /* Your CSS styles for extra small devices go here */
+    /* nav{
+        width: 50%;
+        left: 30%;
+    } */
+    /* nav a{
+        padding: 0.2rem;
+    border-radius: 50%;
+    color: var(--color-light);
+    font-size: 1.1rem;
+    } */
   }
   
   /* Small Devices (tablets) */

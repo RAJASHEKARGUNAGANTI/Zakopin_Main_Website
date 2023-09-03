@@ -68,11 +68,17 @@ textarea{
 /* Extra Small Devices (phones) */
 @media (max-width: 576px) {
     .container{
-        width: var(--container-width-sm);
+        width: 90%;
     }  
     .contact{
         margin-top: 14rem;
-        width: 15cm;
+        /* width: 15cm; */
+    }
+    .container.contact__container{
+        width: 95%;
+        grid-template-columns: 40% 55%;
+        gap: 10%;
+        margin: 0rem;
     }
 }
   
