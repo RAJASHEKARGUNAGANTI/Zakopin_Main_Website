@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a4e0551.css",
+    "main.js": "/static/js/main.e8c299a1.js",
+    "static/media/member3.jpg": "/static/media/member3.b1965abda98e247f6b4a.jpg",
+    "static/media/coming-soon.jpg": "/static/media/coming-soon.8d756975002e00424508.jpg",
+    "static/media/app.jpg": "/static/media/app.8027c08c79789b5cbe76.jpg",
+    "static/media/KaushanScript-Regular.ttf": "/static/media/KaushanScript-Regular.a668b3d996f7c50fb3fe.ttf",
+    "static/media/keyboard.jpg": "/static/media/keyboard.c2521f18a59dd6613195.jpg",
+    "static/media/MADE Dillan PERSONAL USE.otf": "/static/media/MADE Dillan PERSONAL USE.3de0d41df479e8bfca95.otf",
+    "static/media/PressStart2P-Regular.ttf": "/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
+    "static/media/data.webp": "/static/media/data.c83d2837a6c15dd7e3f6.webp",
+    "static/media/logo.png": "/static/media/logo.4ec511a4c8c57721a066.png",
+    "static/media/Gruppo-Regular.ttf": "/static/media/Gruppo-Regular.6651b7e098ca04e57596.ttf",
+    "static/media/member2.jpg": "/static/media/member2.c9c8369089b6ffe2421d.jpg",
+    "static/media/LeagueScriptNumberOne.otf": "/static/media/LeagueScriptNumberOne.0a926b277aca9f6951b9.otf",
+    "static/media/member4.jpg": "/static/media/member4.a9322dcce2ec6ac4cc61.jpg",
+    "static/media/webdev.jpg": "/static/media/webdev.54c40787d51645b554b8.jpg",
+    "static/media/headder.jpg": "/static/media/headder.42e469d1495e7b38b9ff.jpg",
+    "static/media/ourServices.jpg": "/static/media/ourServices.dc99300c0a1f2542c5e9.jpg",
+    "static/media/Nightydemo.otf": "/static/media/Nightydemo.57e9c56427f8a725ada0.otf",
+    "index.html": "/index.html",
+    "main.7a4e0551.css.map": "/static/css/main.7a4e0551.css.map",
+    "main.e8c299a1.js.map": "/static/js/main.e8c299a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a4e0551.css",
+    "static/js/main.e8c299a1.js"
+  ]
+}
