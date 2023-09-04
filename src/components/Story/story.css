@@ -54,7 +54,9 @@
 @media (max-width: 576px) {
   
     .total_services {
-      width: var(--container-width-sm);
+      /* width: var(--container-width-sm); */
+      margin: 0;
+      padding: 0;
       margin-top: 55rem;
     }
   
@@ -63,7 +65,7 @@
 /* Small Devices (tablets) */
 @media (min-width: 577px) and (max-width: 768px) {
   .total_services {
-    width: var(--container-width-sm);
+    /* width: var(--container-width-sm); */
     margin-top: 45rem;
   }
 }

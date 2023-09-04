@@ -38,9 +38,9 @@ function App() {
           <Story />
           <Contact />
           <Testimonials />
-          <ParticlesBG/>
           <Footer />
           <SmallNav/>
+          <ParticlesBG/>
         </div>
       )}
     </div>

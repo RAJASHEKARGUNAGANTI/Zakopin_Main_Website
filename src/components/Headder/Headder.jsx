@@ -19,7 +19,7 @@ function Headder() {
     },[]);
     return (
         <div className="Headding" >
-            {/* <ParticlesBG/> */}
+           
             <div className="headInfo">
             <div className="InfoImg" data-aos="fade-right">
                     <img src={headderImg} alt="headder Img" className="InfoImginner" />

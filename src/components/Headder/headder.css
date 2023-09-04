@@ -3,31 +3,22 @@
     padding: 0;
 }
 .Headding{
-    /* z-index: -2; */
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    /* height: 95vh; */
-    /* border-bottom: 0.5 solid black; */
-    /* background-color: rgb(217, 215, 215); */
-    /* font-family: 'CustomFont3'; */
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     padding-top:5rem ;
-    padding: 3rem;
+    /* padding: 3rem; */
     background-image: url('../../images/keyboard.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(10px);
     height: 90vh;
-    /* width: 100%; */
+    /* width: 5cm; */
     
 }
 .Headding::before {
     content: "";
-    /* background-image: url('../../images/keyboard.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(3px);
@@ -36,7 +27,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1; /* Place it below the content */
+    z-index: -1; 
     
   }
 .headInfo{
@@ -69,16 +60,10 @@
     font-size: 5rem;
 }
 .services_content{
-    /* margin-top: 9rem; */
     align-items: center;
     justify-content: center;
-    /* display: flex;
-    flex-direction: row; */
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    /* gap: 5%; */
-    /* margin: 2rem; */
-    
+    grid-template-columns: 30% 30% 30%;  
 
 }
 .services_card{
@@ -99,15 +84,16 @@
 /* Extra Small Devices (phones) */
 @media (max-width: 576px) {
     .Headding{
+        /* background-size: cover; */
+        margin: 0;
+        padding: 0;
         
     }
     .services_content{
         /* width: var(--container-width-sm); */
-        width: 100%;
+        /* width: 100%; */
         grid-template-columns: 1fr;
         height: 120vh;
-       
-
     } 
     .InfoImg {
         display: none;

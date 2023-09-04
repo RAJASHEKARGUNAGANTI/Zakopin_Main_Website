@@ -78,7 +78,7 @@
 /*=======================MEDIA QUERIES (SMALL DEVICES)=======================*/
 @media screen and (max-width:600px){
     .Testimo{
-        width: var(--container-width-sm);
+        /* width: var(--container-width-sm); */
         margin-top: 8rem;
     }
     .carousel_item{
