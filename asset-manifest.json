@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Zakopin_Main_Website/static/css/main.fef0f603.css",
-    "main.js": "/Zakopin_Main_Website/static/js/main.afd3911b.js",
+    "main.css": "/Zakopin_Main_Website/static/css/main.e3955376.css",
+    "main.js": "/Zakopin_Main_Website/static/js/main.afe54f58.js",
     "static/media/member3.jpg": "/Zakopin_Main_Website/static/media/member3.b1965abda98e247f6b4a.jpg",
     "static/media/coming-soon.jpg": "/Zakopin_Main_Website/static/media/coming-soon.8d756975002e00424508.jpg",
     "static/media/app.jpg": "/Zakopin_Main_Website/static/media/app.8027c08c79789b5cbe76.jpg",
@@ -20,11 +20,11 @@
     "static/media/ourServices.jpg": "/Zakopin_Main_Website/static/media/ourServices.dc99300c0a1f2542c5e9.jpg",
     "static/media/Nightydemo.otf": "/Zakopin_Main_Website/static/media/Nightydemo.57e9c56427f8a725ada0.otf",
     "index.html": "/Zakopin_Main_Website/index.html",
-    "main.fef0f603.css.map": "/Zakopin_Main_Website/static/css/main.fef0f603.css.map",
-    "main.afd3911b.js.map": "/Zakopin_Main_Website/static/js/main.afd3911b.js.map"
+    "main.e3955376.css.map": "/Zakopin_Main_Website/static/css/main.e3955376.css.map",
+    "main.afe54f58.js.map": "/Zakopin_Main_Website/static/js/main.afe54f58.js.map"
   },
   "entrypoints": [
-    "static/css/main.fef0f603.css",
-    "static/js/main.afd3911b.js"
+    "static/css/main.e3955376.css",
+    "static/js/main.afe54f58.js"
   ]
 }
