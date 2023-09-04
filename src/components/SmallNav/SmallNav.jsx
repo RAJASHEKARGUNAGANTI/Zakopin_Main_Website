@@ -14,12 +14,12 @@ const SmallNav = () => {
   const[activeNav, setActiveNav] = useState("#")
   return (
     <nav className='SmallNav'>
-      <Link to="#" onClick={()=> setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeAlt /></Link>
-      <Link to="#about" onClick={()=> setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></Link>
+      <Link to="/Zakopin_Main_Website" onClick={()=> setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeAlt /></Link>
+      <Link to="/Zakopin_Main_Website" onClick={()=> setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></Link>
       <Link to="/services" onClick={()=> setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook /></Link>
-      <Link to="#portfolio" onClick={()=> setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><FaProjectDiagram /></Link>
-      <Link to="#qualification"onClick={()=> setActiveNav('#qualification')} className={activeNav === '#qualification' ? 'active' : ''}><FaUserGraduate /></Link>
-      <Link to="#contact"onClick={()=> setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></Link>
+      <Link to="/Zakopin_Main_Website" onClick={()=> setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><FaProjectDiagram /></Link>
+      <Link to="/Zakopin_Main_Website"onClick={()=> setActiveNav('#qualification')} className={activeNav === '#qualification' ? 'active' : ''}><FaUserGraduate /></Link>
+      <Link to="/Zakopin_Main_Website"onClick={()=> setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></Link>
     </nav>
   )
 }

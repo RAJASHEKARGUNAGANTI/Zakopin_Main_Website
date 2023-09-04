@@ -11,6 +11,7 @@ import Footer from "../../components/Footer/Footer";
 import { useEffect } from 'react';
 import Aos from "aos"; //source https://github.com/michalsnik/aos
 import "aos/dist/aos.css"
+import SmallNav from "../../components/SmallNav/SmallNav"
 
 function Services() {
   useEffect(() => {
@@ -65,6 +66,7 @@ function Services() {
               </div>
             </div>
           </div>
+          <SmallNav/>
           <ParticlesBG/>
           <Footer/>
         </div>

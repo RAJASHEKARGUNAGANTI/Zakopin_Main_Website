@@ -43,39 +43,31 @@
   width: 30rem;
   height: auto;
 }
-/*=======================MEDIA QUERIES (MEDIUM DEVICES)=======================*/
-@media screen and (max-width:1024px){
-  
-  .service-contents{
-      padding-top: 7px;
-      /* grid-template-columns: 1fr; */
-      /* gap: 2rem; */
-      grid-template-columns: 80% ;
-      
-    }
-    .service-contents{
-      padding: 2rem;
-    }
-    
-  }
-  
-  /*=======================MEDIA QUERIES (SMALL DEVICES)=======================*/
-  @media screen and (max-width:600px){
-    
-  
-}
+
 
 /* Extra Small Devices (phones) */
 @media (max-width: 576px) {
+  .service-container{
+    margin: 0rem;
+    padding: 0rem;
+    display: grid;
+    grid-template-columns: 60%;
+    gap: 3%;
+    padding-bottom: 6rem;
+  }
   .service-contents{
-    /* padding-top: 7px; */
-  grid-template-columns: 200% ;
-  height: 35rem;
-}
-
-.service-img-inner{
-width: 20rem;
-}
+    display: grid;
+    grid-template-columns:1fr;
+    /* gap: 10%; */
+    /* margin: 1rem; */
+  }
+  .service-img-inner{
+    width: 20.5rem;
+    height: auto;
+  }
+  .ourServices{
+    padding-left: 2rem;
+  }
 }
 
 /* Small Devices (tablets) */
